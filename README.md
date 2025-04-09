@@ -18,8 +18,6 @@ Table of Contents
 
 Features
 --------
-
--   Schema-less document storage
 -   Thread-safe operations
 -   Concurrent document processing
 -   Persistent storage with serialization
@@ -39,22 +37,6 @@ Technical Stack
 -   Custom serialization implementation
 -   Logger framework
 
-Project Structure
------------------
-    
-    com.recorddb/
-    ├── core/
-    │   ├── DatabaseOperations.java
-    │   └── NoSQLDatabase.java
-    ├── model/
-    │   └── Document.java
-    ├── command/
-    │   └── CommandExecutor.java
-    ├── util/
-    │   ├── DocumentSerializer.java
-    │   └── ValidationUtil.java
-    └── server/
-        └── App.java
 
 Getting Started
 ---------------
